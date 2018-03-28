@@ -34,7 +34,7 @@ function shuffle(array) {
 
  // *  - display the card's symbol (put this functionality in another function that you call from this one)
  function addClass(){
-   this.classList.toggle("open show");
+   this.classList.add("open", "show");
  }
  /*
  *  - add the card to a *list* of "open" cards (put this functionality in another function that you call from this one)
